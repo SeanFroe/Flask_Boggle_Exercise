@@ -1,0 +1,75 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#boggle {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.board {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.board td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #e0e0e0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+form.add-word {
+  margin-bottom: 10px;
+}
+
+form.add-word input {
+  padding: 5px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 5px;
+}
+
+form.add-word button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.msg {
+  margin: 10px 0;
+  font-size: 14px;
+  color: red;
+}
+
+.words {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.words li {
+  margin: 5px 0;
+}
